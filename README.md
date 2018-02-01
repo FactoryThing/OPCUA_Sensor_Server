@@ -7,9 +7,9 @@
  - Arduino with 3 sensor ( Analog Ambient light sensor, Analog Sound sensor, DHT11 sensor)
 
 ### Using open62541
-    A general introduction to OPC UA and the open62541 documentation can be found at http://open62541.org/doc/current.
-    Past releases of the library can be downloaded at https://github.com/open62541/open62541/releases.
-    To use the latest improvements, download a nightly build of the *single-file distribution* (the entire library merged into a single source and header file) from http://open62541.org/releases. Nightly builds of MSVC binaries of the library are available [here](https://ci.appveyor.com/project/open62541/open62541/build/artifacts).
+A general introduction to OPC UA and the open62541 documentation can be found at http://open62541.org/doc/current.
+Past releases of the library can be downloaded at https://github.com/open62541/open62541/releases.
+To use the latest improvements, download a nightly build of the *single-file distribution* (the entire library merged into a single source and header file) from http://open62541.org/releases. Nightly builds of MSVC binaries of the library are available [here](https://ci.appveyor.com/project/open62541/open62541/build/artifacts).
 
 ** Building the Library 
 reference ( https://open62541.org/doc/0.2/building.html )
@@ -28,7 +28,7 @@ reference ( https://open62541.org/doc/0.2/building.html )
  - make
 
 ### Using wiringPi
-    wiringPi library supported rasberryPi serial transport, pi-thread function .. etc
+wiringPi library supported rasberryPi serial transport, pi-thread function .. etc
 
 ** wiringPi build & install
  - sudo apt-get update
@@ -51,3 +51,5 @@ reference ( https://open62541.org/doc/0.2/building.html )
 2) opcua server run
  - gcc -std=c99 open62541.c opcua_server_3sensor.c -o opcua_server -lwiringPi
  - ./opcua_server
+
+
